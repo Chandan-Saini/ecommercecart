@@ -5,15 +5,6 @@
 
 ## Run Server
 ```
-$ npm install -g json-server
-Then
-$ yarn server
-or
-$ json-server public/db.json --port 8000
-```
+$ To run this run just run command "npm run start" and this command will open this app on port 3000
 
-## Run App
-```
-$ yarn start
-```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
