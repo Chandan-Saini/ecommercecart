@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import util from '../util'
-export default class Basket extends Component {
+import '../App.css'
+class Basket extends PureComponent {
     render() {
         const { cartItems } = this.props;
 
@@ -26,10 +27,11 @@ export default class Basket extends Component {
 
                         <b>Sum: {util.formatCurrency(cartItems.reduce((a, c) => (a + c.price * c.count), 0))}
                         </b>
-                        <button onClick={() => alert('Todo: Implement checkout page.')} className="btn btn-primary">checkout</button>
+                        <button className ="btn" onClick={() => alert('Todo: Implement checkout page.')} className="btn btn-primary">checkout</button>
                     </div>
                 }
             </div>
         )
     }
 }
+export default Basket;

@@ -1,9 +1,6 @@
-import React, { Component } from 'react';
-export default class Products extends Component {
-
+import React, { PureComponent } from 'react';
+class Products extends PureComponent {
     render() {
-
-
         return (
             <div className="row">
                 <div className="col-md-4">
@@ -35,3 +32,4 @@ export default class Products extends Component {
         )
     }
 }
+export default Products;

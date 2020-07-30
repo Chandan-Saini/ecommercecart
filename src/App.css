@@ -1,13 +1,23 @@
 .App {
   text-align: center;
+  
 }
-
+h1{
+  color:#1b262c;
+  text-align: center;
+}
+.container{
+  background-color: #00bcd4;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
-
+.btn{
+  color: #1b262c;
+  background-color: red;
+}
 .App-header {
   background-color: #fb7b6b;
   min-height: 100vh;

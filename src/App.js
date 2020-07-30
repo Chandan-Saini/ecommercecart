@@ -2,10 +2,7 @@ import React, { Component } from "react";
 import Products from "./components/Products";
 import Filter from "./components/Filter";
 import Basket from "./components/Basket";
-
 import "./App.css";
-import Copyright from "./components/Copyright";
-
 class App extends Component {
   constructor() {
     super();
@@ -74,8 +71,8 @@ class App extends Component {
               ? 1
               : -1
             : a.price < b.price
-            ? 1
-            : -1
+              ? 1
+              : -1
         );
       } else {
         state.products.sort((a, b) => (a.id > b.id ? 1 : -1));
@@ -122,7 +119,6 @@ class App extends Component {
               cartItems={this.state.cartItems}
               handleRemoveFromCart={this.handleRemoveFromCart}
             />
-            <Copyright />
           </div>
         </div>
       </div>
