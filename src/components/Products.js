@@ -1,5 +1,6 @@
 import React, {PureComponent } from 'react';
 import util from '../util'
+import '../App.css';
 class Products extends PureComponent {
 
     render() {
