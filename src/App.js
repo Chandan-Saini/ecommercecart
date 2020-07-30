@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Products from "./components/Products";
 import Filter from "./components/Filter";
 import Basket from "./components/Basket";
+import axios from 'axios'
 import "./App.css";
 class App extends Component {
   constructor() {
@@ -21,8 +22,7 @@ class App extends Component {
       });
     }
 
-    fetch("http://localhost:8000/products")
-      .then(res => res.json())
+    axios.get("http://localhost:8000/products")
       .catch(err =>
         fetch("db.json")
           .then(res => res.json())
