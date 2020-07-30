@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, {PureComponent } from 'react';
 import util from '../util'
-export default class Products extends Component {
+class Products extends PureComponent {
 
     render() {
         const productItems = this.props.products.map(product => (
@@ -23,3 +23,4 @@ export default class Products extends Component {
         )
     }
 }
+export default Products;
