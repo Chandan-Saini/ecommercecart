@@ -1,8 +1,10 @@
-# E-commerce Shopping Cart Application
+# E-Commerce Shopping Cart Application.
 
-## Run Server using npm comand
+## Description:- Shopping Cart application allows user to add a product to cart, order by price, filter by size, sum the total to cart.
 
-## To run this run just run command "npm run start" and this command will open this app on port 3000
+## Run Server using npm command
+
+### To run this run just run command "npm run start" and this command will open this app on port 3000
 
 ### Open (http://localhost:3000) to view it in the browser.
 
