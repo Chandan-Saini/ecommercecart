@@ -1,4 +1,4 @@
-## E-commerce Shopping Cart Application
+# E-commerce Shopping Cart Application
 
 # Run Server using npm comand
 
