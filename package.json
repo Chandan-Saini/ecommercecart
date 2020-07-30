@@ -5,7 +5,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "gh-pages": "^2.0.1",
     "json-server": "^0.16.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
